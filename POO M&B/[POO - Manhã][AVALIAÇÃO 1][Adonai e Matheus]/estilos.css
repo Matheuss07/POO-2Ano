@@ -1,0 +1,23 @@
+
+body{
+display: flex;
+flex-direction: row;
+gap: 20px;
+background-color: rgb(115, 16, 16);
+
+}
+
+.card{
+background-color: #ffffff;
+width:300px;
+padding: 20px;
+
+}
+
+.foto{
+    width: 100px;
+    aspect-ratio: 1;
+    object-fit:cover;
+    margin: 10px;
+    
+}

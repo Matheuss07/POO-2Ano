@@ -3,32 +3,33 @@ body{
   
         background-color: rgb(0, 0, 0);
     }
-    .card{
-
+    .card{  
+        align-items: center;
         display: flex;
         flex-direction: row;
         padding: 10px;/*distancia da borda para o conteudo interno*/
-        margin-bottom: 16px;
-        background-color: #2c2b2c;
-        width: 800px;
+        margin-bottom: 5px;
+        background-color: #313031;
+        width: 75%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         border-radius: 5px;
     }
     
     .info{
-
+        
         padding-top: 50px;
         display: flex;
         flex-direction: column;
         width: 57%;
+        gap: 6px;
 
     }
     
     .poster{
 
-        width: 14%;
-        aspect-ratio: 1/1;
-        object-fit: contain;
+        width: 100px;
+        aspect-ratio: 1;
+        object-fit:cover;
         margin: 10px;
         border-radius: 20px;
     }
@@ -61,4 +62,16 @@ body{
         padding-top: 60px;
        
         
+    }
+
+    .video{
+
+         width: 250px;
+         height: 150px;
+         padding: 100px;
+        align-items:center;
+
+
+
+
     }
