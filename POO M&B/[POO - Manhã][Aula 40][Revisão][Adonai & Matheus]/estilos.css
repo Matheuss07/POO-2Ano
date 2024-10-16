@@ -1,0 +1,40 @@
+body{
+    background-color:#03080c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    display: flex;
+    flex-direction: row;
+    gap: 10px; 
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 340px;
+    width: 220px;
+    background-color: #02101a;
+    border-radius: 5%;
+    
+}
+
+.img{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 300px;
+    width: 180px;
+   
+}
+.nome{
+    color: #ffdd4a;
+    padding-left: 10px;
+    font-size: 15px;
+
+}
+.info{
+    color: #4c7497;
+    font-size: 12px;
+    padding-left: 10px;
+    gap: 5px;
+
+}

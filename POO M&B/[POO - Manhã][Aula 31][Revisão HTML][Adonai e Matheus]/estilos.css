@@ -1,0 +1,35 @@
+
+.body1{
+
+
+    border: solid 3px #000000;
+    padding: 10px; /* Espaçamento entre a borda e o conteúdo */
+    margin: 20px; /* Espaçamento ao redor da borda */
+  
+}
+
+.bamen{
+    font-weight: 900;
+}
+
+.form1{
+    background-color: #72079c;
+}
+
+#menu{
+display: flex;
+flex-direction: row; /* orientação de direção*/
+justify-content: space-around;
+flex-wrap: wrap; /*permite quebra de linha*/
+
+
+border: solid black;
+
+}
+
+a{
+    color: #007bff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 450;
+}

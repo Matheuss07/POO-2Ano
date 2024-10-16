@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: ridge;
+    padding: 10px;
+    
+}
+
+.nubank{
+    background-color: blueviolet;
+    border-radius: 14px;
+    height: 25px;
+    width: 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    padding-top: 2px;
+}
+
+.container1{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 75px;
+  
+}
+
+.titulo1{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+}
+
+.texto1{
+    
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.conteudo1{
+    display: flex;
+    flex-direction: column;    
+    padding: 25px;
+}
+
+.container2{
+    background-color: rgb(226, 223, 223);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-evenly;
+    
+}
+
+.titulo2{
+
+    font-size: 45px;
+}
+
+.texto2{
+    
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.conteudo2{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.zero{
+    display: flex;
+    flex-direction: column ;
+    padding: 25px;
+    justify-content: center;
+    font-size: 225px    ;
+}
+
+.container3{
+    gap: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-around;
+
+
+}
+
+.titulo3{
+    display:flex ;
+    flex-direction: row;
+    font-size: 40px;
+    font-size: arial;
+    margin-left: 330px;      
+    padding-top: 25px;  
+}
+
+.conteudo3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.comentario1{
+    display: flex;
+    flex-direction: column;
+}
+
+.comentario2{
+    display: flex;
+    flex-direction: column;
+}
+
+.comentario3{
+    display: flex;
+    flex-direction: column;
+}
+
+.mulher{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    
+}

@@ -1,0 +1,15 @@
+/* Resetando alguns estilos padrão */
+body, h2, label, input, button {
+    margin: 100;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}

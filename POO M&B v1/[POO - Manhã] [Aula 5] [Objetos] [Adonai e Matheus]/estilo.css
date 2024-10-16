@@ -1,0 +1,65 @@
+
+body{
+display: flex;
+flex-direction: row;
+gap: 20px;
+
+flex-wrap: wrap;/*quebra de linha*/
+    background-color: rgb(128, 128, 130);
+}
+.card{
+    background-color: #333333;
+width:300px;/*largura*/
+padding: 20px;/*distancia da borda para o conteudo interno*/
+margin-bottom: 16px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+/*border: solid 1px #f10000;/*solid = linha contínua*/
+
+border-radius: 16px;
+}
+
+
+.foto{
+    width: 100%;/*a largura vai ser 100% do container pai (card)*/
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    /* width: 265px; largura da foto */
+/*border: solid 1px  #285ce2;*/
+}
+
+
+.nome{
+font-size: 20px;/*tamanho da letra*/
+font-weight: 800;/*espessura*/
+color: #E6F06C;
+
+}
+
+
+.armazenamento{
+/* border: solid 2px #ffffff; */
+margin-left: 20px;
+color: #E6F06C;
+}
+
+
+.ram{
+    margin-left: 20px;
+    color: #E6F06C;
+}
+
+.cor{
+    margin-left: 20px;
+    color: #E6F06C;
+}
+
+.preco{
+    color: #E6F06C;
+    font-size: px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: right;
+    /* border: solid 1px #ffff00; */
+}
