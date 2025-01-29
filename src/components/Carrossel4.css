@@ -1,0 +1,61 @@
+.container4{
+    display: flex;
+    flex-direction: column;
+    
+    color: white;
+    
+    margin-top: 100px;
+    margin-left: 45px;
+    
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    font-weight: 500;
+    
+    padding: 20px;
+    gap:10px;
+    
+    
+    overflow: scroll;
+    }
+
+.c-top10{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-shadow: 1px 1px black;
+    padding-left: 10px;
+
+    color: white;
+}
+
+.Carrossel-Numerado{
+   display: flex;
+   flex-direction: row;
+   gap: 50px;
+}
+
+.capas4{
+    width: 180px;
+    height: 255px;
+
+    border-radius: 2px;
+
+    margin-left: -50px;
+}
+
+.cards4{
+    display: flex;
+    align-items: center;
+}
+
+.numero{
+    font-size: 32vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    
+    margin: 0;
+    -webkit-text-stroke: 5px rgb(61, 60, 60);
+
+}

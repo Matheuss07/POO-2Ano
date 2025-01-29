@@ -1,0 +1,121 @@
+.nomes{
+    display: flex;
+    flex-direction: column;
+}
+.botoes{
+    display: flex;
+    flex-direction: row;
+}
+
+.pequen{
+    color: white;
+
+    font-family: "Netflix Sans";
+}
+
+.pequeneninho{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.grand{
+    color: white;  
+    font-size: 75px;
+    font-family: "Netflix Sans";
+}
+
+
+.BtAssistir{
+    display: flex;
+    flex-direction:row ;
+    background-color: white;
+    height: 40px;
+    width: 155px;
+    border-radius: 3px;
+    align-items:center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.BtInfo{
+    display: flex;
+    flex-direction:row ;
+    background-color: #4d4d4d ;
+    height: 40px;
+    width: 220px;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.BtAssistir:hover {
+    background-color: #e6e6e6;
+}
+.BtInfo:hover {
+    background-color: #666;
+}
+
+.nomeT{
+    padding-top: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 55px;
+    margin-right: 55px;
+    gap:20px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    gap: 7px;
+}
+
+.NmInfo{
+    color: white;
+}
+
+.Bts{
+    display: flex;
+    flex-direction: row;
+    gap:10px ;
+}
+
+.Btiddvol {
+    font-size: 25px; 
+    padding: 5px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.lado {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.Idade{
+    font-size: 28px; 
+    padding: 5px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 217, 0);
+    border-radius: 7px;
+
+}
+
+.Som{
+    font-size: 24px; 
+    padding: 5px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: solid 2px white;
+}
